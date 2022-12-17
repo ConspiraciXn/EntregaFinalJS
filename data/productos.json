@@ -1,0 +1,17 @@
+[
+    {"id": 1, "nombre": "Monitor AOC 27'", "precio": 125000, "categoria": "monitores", "destacado": false, "enlaceIMG": "./img/prod-mon-aoc.png"},
+	{"id": 2, "nombre": "Monitor Samsung 32'", "precio": 167000, "categoria": "monitores", "destacado": false, "enlaceIMG": "./img/prod-mon-sams.png"},
+	{"id": 3, "nombre": "Monitor Redragon 32'", "precio": 187000, "categoria": "monitores", "destacado": true, "enlaceIMG": "./img/prod-monitor-redragon.png"},
+	{"id": 4, "nombre": "Mouse genérico USB", "precio": 6500, "categoria": "accesorios", "destacado": true, "enlaceIMG": "./img/prod-mouse.png"},
+	{"id": 5, "nombre": "Teclado genérico USB", "precio": 9000, "categoria": "accesorios", "destacado": false, "enlaceIMG": "./img/prod-teclado.png"},
+	{"id": 6, "nombre": "Cámara Web USB 1080p", "precio": 19990, "categoria": "accesorios", "destacado": true, "enlaceIMG": "./img/prod-cam.png"},
+	{"id": 7, "nombre": "Tableta Digital Easypen", "precio": 34990, "categoria": "diseño", "destacado": false, "enlaceIMG": "./img/prod-tablet1.png"},
+	{"id": 8, "nombre": "Tableta Digital Deco Fun", "precio": 39990, "categoria": "diseño", "destacado": false, "enlaceIMG": "./img/prod-tablet2.png"},
+	{"id": 9, "nombre": "Lapiz Touch para Tablet ", "precio": 9990, "categoria": "diseño", "destacado": false, "enlaceIMG": "./img/prod-lapiz.png"},
+	{"id": 10, "nombre": "Cable de Red 2mts CAT5", "precio": 2990, "categoria": "conectividad", "destacado": false, "enlaceIMG": "./img/prod-red.png"},
+	{"id": 11, "nombre": "Cable HDMI 3mts", "precio": 6990, "categoria": "conectividad", "destacado": false, "enlaceIMG": "./img/prod-hdmi.png"},
+	{"id": 12, "nombre": "Cable DP 3mts", "precio": 10990, "categoria": "conectividad", "destacado": false, "enlaceIMG": "./img/prod-dp.png"},
+	{"id": 13, "nombre": "Parlante Logitech USB", "precio": 15990, "categoria": "audio", "destacado": false, "enlaceIMG": "./img/prod-parlante.png"},
+	{"id": 14, "nombre": "Cable AUX 3.5mm 3mts", "precio": 3990, "categoria": "audio", "destacado": false, "enlaceIMG": "./img/prod-aux.png"},
+	{"id": 15, "nombre": "HyperX Quadcast", "precio": 29990, "categoria": "audio", "destacado": true, "enlaceIMG": "./img/prod-mic.png"}
+]

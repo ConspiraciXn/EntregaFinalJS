@@ -1,0 +1,497 @@
+/* --------------------------------------------------------
+---------------- [ MEDIA QUERY ] --------------------------
+-------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu-icono {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+
+/* --------------------------------------------------------
+------------------ [ GENERAL ] ----------------------------
+-------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.ocultarElemento {
+    display: none;
+}
+
+
+/* --------------------------------------------------------
+------------- [ FILAS / COLUMNAS ] ------------------------
+-------------------------------------------------------- */
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row-2 {
+    justify-content: space-between;
+    margin: 25px auto 50px;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 75%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.col-3 p {
+    font-size: 14px;
+    margin: 12px 0;
+    color: #777777;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+  
+.col-4 img {
+    width: 100%;
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+.col-5 {
+    width: 160px;
+}
+  
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+  
+.col-5 img:hover {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+
+/* --------------------------------------------------------
+------------------ [ FUENTES ] ----------------------------
+-------------------------------------------------------- */
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    background: #00B295;
+    color: #ffffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #133D36;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: "";
+    background: #00B295;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+small {
+    color: #555;
+}
+
+.fa-quote-left {
+    font-size: 34px;
+    color: #00B295;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+/* --------------------------------------------------------
+------------------ [ HEADER ] -----------------------------
+-------------------------------------------------------- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo h2 {
+    margin-left: 15px;
+    color: #555;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-icono {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+header {
+    background: radial-gradient(#fff, #BDDCEB);
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+
+
+/* --------------------------------------------------------
+---------------- [ CATEGORIAS ] ---------------------------
+-------------------------------------------------------- */
+
+.categorias {
+    margin: 70px 0;
+}
+
+
+
+/* --------------------------------------------------------
+----------- [ CONTAINER PRODUCTOS ] -----------------------
+-------------------------------------------------------- */
+
+.rating .fas {
+    color: #00B295;
+}
+  
+.rating .far {
+    color: #00B295;
+}
+
+.prodDestacado {
+    max-height: 250px;
+}
+
+
+/* --------------------------------------------------------
+----------------- [ OFERTAS ] -----------------------------
+-------------------------------------------------------- */
+
+.oferta {
+    background: radial-gradient(#fff, #BDDCEB);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+
+
+/* --------------------------------------------------------
+--------------- [ TESTIMONIOS ] ---------------------------
+-------------------------------------------------------- */
+
+.testimonios {
+    padding-top: 100px;
+}
+
+.testimonios .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+  
+.testimonios .col-3 img {
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+  
+.testimonios .col-3:hover {
+    transform: translateY(-10px);
+}
+
+.testimonios .col-3 h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+
+
+/* --------------------------------------------------------
+------------------ [ MARCAS ] -----------------------------
+-------------------------------------------------------- */
+
+.marcas {
+    margin: 100px auto;
+}
+
+
+
+/* --------------------------------------------------------
+------------------- [ FOOTER ] ----------------------------
+-------------------------------------------------------- */
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+  }
+  
+.footer h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1,
+.footer-col-2 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+
+
+/* --------------------------------------------------------
+----------------- [ PRODUCTOS ] ---------------------------
+-------------------------------------------------------- */
+
+select {
+    border: 1px solid #00B295;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+input {
+    border: 1px solid #00B295;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* --------------------------------------------------------
+--------------- [ CARRO DE COMPRA ] -----------------------
+-------------------------------------------------------- */
+
+.cart-page {
+    margin: 90px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #ffffff;
+    background: #00B295;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+  
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+  
+td a {
+    color: #00B295;
+    font-size: 12px;
+}
+  
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+  
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.total-price table {
+    border-top: 3px solid #00B295;
+    width: 100%;
+    max-width: 400px;
+}
+  
+td:last-child {
+    text-align: right;
+}
+  
+th:last-child {
+    text-align: right;
+}
+
+.tablaCarro {
+    margin-bottom: 100px;
+}

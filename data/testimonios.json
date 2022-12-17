@@ -1,0 +1,5 @@
+[
+    {"id": 1, "nombre": "Ximena Valderrama", "comentarios": "Excelente servicio. Entrega rápida.", "enlaceIMG": "./img/pp-xime.png"},
+    {"id": 2, "nombre": "Neil Astudillo", "comentarios": "Compra rápida y a buen precio.", "enlaceIMG": "./img/pp-neil.png"},
+    {"id": 3, "nombre": "Martín Hernández", "comentarios": "La mejor tienda de Chile, sin duda.", "enlaceIMG": "./img/pp-martin.png"}
+]

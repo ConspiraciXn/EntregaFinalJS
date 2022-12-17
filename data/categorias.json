@@ -1,0 +1,7 @@
+[
+    {"id": 1, "nombre": "Monitores", "enlaceIMG": "./img/cat-monitores.png"},
+	{"id": 2, "nombre": "Accesorios", "enlaceIMG": "./img/cat-accesorios.png"},
+	{"id": 3, "nombre": "Diseño", "enlaceIMG": "./img/cat-diseno.png"},
+	{"id": 4, "nombre": "Conectividad", "enlaceIMG": "./img/cat-conectividad.png"},
+	{"id": 5, "nombre": "Audio", "enlaceIMG": "./img/cat-audio.png"}
+]
